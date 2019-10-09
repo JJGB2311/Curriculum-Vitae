@@ -1,0 +1,180 @@
+/*seccion 2*/
+h1 {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  color: rgb(12, 11, 11);
+}
+h5{
+    margin-bottom: 0px;
+}
+
+p {
+  font-size: 30px;
+  color: rgb(17, 7, 114);
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+
+section {
+  padding: 5px 0;
+  margin: 2px 10px;
+}
+.topmargin-xs {
+  margin-top: 15px;
+}
+.topmargin-sm {
+  margin-top: 30px;
+}
+.topmargin-lg {
+  margin-top: 60px;
+}
+#hero {
+  background-image: url(../img/pp1.png);
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: white;
+}
+#hero p {
+  color: rgb(5, 32, 107); /*seccion 3 color de imagen principal */ 
+}
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+/*pp*/
+.content-center2 {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+
+}
+/*pp*/
+
+/*seccion3*/
+.portfolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+.portfolio-container img {
+  /*Tiempo de transacion de las imagenes seccion3*/
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.portfolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.portfolio-details a h2,
+.portfolio-details a p {
+  color: rgb(14, 16, 167); /*color de texto fotos*/
+}
+
+
+#contacto p{
+color: rgb(13, 207, 191);
+
+}
+#contacto h6{
+color: rgb(15, 108, 124);
+
+}
+#contacto h5{
+color: rgb(0, 0, 0);
+
+}
+/*seccion 4*/
+a i{
+
+    font-size: 22px;
+    color: white;
+}
+.bg-light-grey{
+    background-color: #f5f5f5;
+
+}
+.member-container{
+    position: relative;
+    margin: 20px 0;
+}
+.member-details{
+    position:absolute;
+    color: white;
+    bottom: 0;
+    left: 10px;
+}
+.member-details span{
+    font-size: 30Px;
+}
+.member-details i{
+    padding: 0 10px;
+}
+
+
+
+
+  @media (max-width: 575.98px) {
+  h1 {
+    font-size: 50px;
+    font-weight:bold;
+    line-height: normal;
+    color: white;
+    
+    
+    
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: normal;
+    
+  }
+  p{
+        font-size: 20px;
+    line-height: normal;
+    color: rgb(14, 137, 245);
+    
+  }
+  h5{
+    font-size: 20Px;
+  }
+.member-details span{
+    font-size: 20Px;
+}
+.row .pp img {
+ width: 210px !important;
+    height: 110px !important; 
+
+
+}
+
+}
+
+/*@media (min-width: 576px) and (max-width: 767.98px) { ... }*/ 
+/*@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+}*/
+/*@media (min-width: 992px) and (max-width: 1199.98px) { 
+   #hero {
+  background-image: url(../img/pp3.jpg);
+  }
+ }*/
+/*@media (min-width: 1200px) { ... }*/

@@ -1,0 +1,37 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+/*Estilos del header*/
+
+/*Color de fuente*/
+
+
+/*area para dispocitivos mobiles*/
+
+
+p{
+  color: rgb(32, 119, 177);
+}
+
+/*foorer*/
+
+.bg-dark2 {
+  background:rgb(188, 224, 240)!important;
+}
+.bg-dark3 {
+  background:rgb(78, 213, 218)!important;
+}
+#footer{
+  padding: 80px 0;
+  text-align: center;
+  color: rgb(11, 12, 12);
+  font-size: 25PX;
+}
+#footer a{
+    color: rgb(255, 255, 255);
+}
+#footer a :hover{
+    color: beige;
+}
+
+/**/
