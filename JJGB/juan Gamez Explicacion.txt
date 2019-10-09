@@ -1,0 +1,6 @@
+Se tiene que almacenar la carpeta del sitio web en xammp
+luego crear una base de dato llamada php
+luego importar el escrip que se encuentra en git
+lugo compilarlo como http://localhost/jjgb/Vitae.html
+
+
